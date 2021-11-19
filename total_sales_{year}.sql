@@ -5,5 +5,4 @@
 
 
 select sum(total) as total from Invoice where invoice.InvoiceDate BETWEEN datetime('2009-01-01 00:00:00') and datetime('2009-12-31 00:00:00');
-select sum(total) as total from Invoice where invoice.InvoiceDate BETWEEN datetime('2010-01-01 00:00:00') and datetime('2010-12-31 00:00:00');
 select sum(total) as total from Invoice where invoice.InvoiceDate BETWEEN datetime('2011-01-01 00:00:00') and datetime('2011-12-31 00:00:00');
