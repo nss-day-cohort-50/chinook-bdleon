@@ -1,0 +1,1 @@
+select DISTINCT billingCountry from Invoice
